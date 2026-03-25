@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Explorador Pokémon</h1>
+        <p>Busque dados consumindo a PokeAPI</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Digite o nome do Pokémon (ex: pikachu)">
+            <button id="searchBtn">Buscar</button>
+        </section>
+
+        <div id="loading" class="hidden">Carregando dados...</div>
+        <div id="errorMessage" class="hidden"></div>
+
+        <section id="resultContainer" class="grid-container">
+            </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por [Seu Nome] - Turma [Sua Turma]</p>
+    </footer>
+</body>
+</html>
